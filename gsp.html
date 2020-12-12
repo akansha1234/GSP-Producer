@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  	.container{
+  		width:900px;
+  		text-align: center;
+  		padding-top:60px;
+  	}
+  	.left{
+  		background-color:#4B0082;
+  		color:white;
+  		padding-top:70px;
+  	}
+  	.shadow{
+  		background-color:#663399;
+  		padding:12px;
+  		border-top-right-radius: 50px;
+  		border-bottom-right-radius: 50px;
+  	}
+  	.right{
+  		background-color:#3C0068;
+  		color:white;
+  		padding-top:30px;
+  		text-align: left;
+  		
+  	}
+  	.btn{
+  		background: rgb(224,27,107);
+background: linear-gradient(90deg, rgba(224,27,107,1) 13%, rgba(240,71,122,1) 51%);
+color:white !important;
+padding:10px 43px;
+border-radius:50px;
+margin-top: 50px;
+  	}
+  	.card{
+  		margin-top:8px;
+  		margin-bottom:5px;
+  		border:none;
+  		position:relative;
+  	}
+  	.header{
+  		font-weight: bold;
+  		font-size:24px;
+  	}
+  	.first{
+  		background: linear-gradient(to right, #009ceb 0%, #8affd8 100%);
+
+color:white;
+  	}
+  	.second{
+  		background: linear-gradient(to right, #f0c360 0%, #ff6666 100%);
+color:white;
+  	}
+  	.third{
+  		background: linear-gradient(to right, #ecd9e6 0%, #5f99f7 100%);
+color:white;
+  	}
+  	.card-header{
+  		background-color: #ECB1D9;
+  		width:100%;
+  		 position: relative;
+  		 display:inline-block;
+  		 height:100%;
+  		 padding:64px;
+  		 
+  	}
+  	.content{
+  		
+  		-moz-transform: rotate(-90.0deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(-90.0deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(-90.0deg);
+  color:white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: absolute;
+  left:-15px;
+  top:62px;
+  font-weight: bold;
+  	}
+  	.two{
+  		background-color: #F7D578;
+  	}
+  	.content_two{
+  		-moz-transform: rotate(-90.0deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(-90.0deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(-90.0deg);
+  color:white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: absolute;
+  left:-24px;
+  top:60px;
+  font-weight: bold;
+  	}
+  .one{
+  	background-color: #ACDCEC;
+  }
+  .content_one{
+  	-moz-transform: rotate(-90.0deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(-90.0deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(-90.0deg);
+  color:white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: absolute;
+  left:11px;
+  top:57px;
+  font-weight: bold;
+  }
+
+  .half-circle-left-one {
+    width: 20px;
+    height: 40px;
+    background-color:#3C0068 ;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 1px solid black;
+    border-left: 0;
+    position:absolute;
+    top:55px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.half-circle-right-one {
+    width: 20px;
+    height: 40px;
+    background-color:#3C0068 ;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 1px solid black;
+    border-right: 0;
+    position:absolute;
+    top:55px;
+    right:0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ 
+  </style>
+</head>
+<body>
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-lg-6 left">
+ 			<h3>Hello <span style="color:#FF4500">Amit Lulla,</span></h3>
+ 			<div class="mt-5">You have a reward balance of 
+ 				<br>USD <b>24.10,90</b> points, <b>30</b> diamonds, and nX</div>
+ 				<div class="mt-2 shadow">
+ 					Redeemable Currency Available:<span style="color:#32CD32">
+ 						<b>USD 24.10</b>
+ 					</span>
+ 				</div>
+ 				<div class="mt-3">
+ 					<p>Earn 1 Point for every <b>$1.00</b> spent</p>
+ 					<p><b>100</b> Points gets you <b>$10.00</b></p>
+
+ 				</div>
+ 				<button class="btn btn-lg">Close</button>
+ 		</div>
+ 		<div class="col-lg-6 right">
+ 			<p>AVAILABLE DISCOUNTS</p>
+ 			<div class="card">
+ 				<div class="row">
+ 					<div class="col-sm-2">
+ 						<div class="card-header one">
+ 							<div class="content_one">hoodie</div>
+ 						</div>
+ 					</div>
+ 					<div class="col-sm-10">
+ 					   <div class="card-body first">
+ 					   	<div class="header">15%</div>
+ 					   	Discount on woo-hoodie up to 300 items<br>
+ 					   	15% against 60 Reward type:<b>Smiles</b>
+ 					   	<br>
+ 					   	<span style="color:black"><b>ADD ITEM TO AVAIL DISCOUNT</b></span>
+ 					   </div>
+ 					</div>
+ 				</div>
+                    <div class="half-circle-left-one"></div>
+                    <div class="half-circle-right-one"></div>
+            </div>
+
+
+            <div class="card">
+ 				<div class="row">
+ 					<div class="col-sm-2">
+ 						<div class="card-header two">
+ 							<div class="content_two">receipt-reward</div>
+ 						</div>
+ 					</div>
+ 					<div class="col-sm-10">
+ 					   <div class="card-body second">
+ 					   	<div class="header">10%</div>
+ 					   	Discount on woo-hoodie up to 300 items<br>
+ 					   	15% against 60 Reward type:<b>Smiles</b>
+ 					   	<br>
+ 					   	<span style="color:black"><b>BUY MORE TO GET DISCOUNT</b></span>
+ 					   </div>
+ 					</div>
+ 				</div>
+                 <div class="half-circle-left-one"></div>
+                 <div class="half-circle-right-one"></div>
+            </div>
+
+            <div class="card">
+ 				<div class="row">
+ 					<div class="col-sm-2">
+ 						<div class="card-header">
+ 							<div class="content">multipleitem</div>
+ 						</div>
+ 					</div>
+ 					<div class="col-sm-10">
+ 					   <div class="card-body third">
+ 					   	<div class="header">5%</div>
+ 					   	Discount on woo-hoodie up to 300 items<br>
+ 					   	15% against 60 Reward type:<b>Smiles</b>
+ 					   	<br>
+ 					   	<span style="color:black"><b>ADD ITEM TO AVAIL DISCOUNT</b></span>
+ 					   </div>
+ 					</div>
+ 				</div>
+ 				<div class="half-circle-left-one"></div>
+ 				<div class="half-circle-right-one"></div>
+ </div>
+</body>
+</html>
